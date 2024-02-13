@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HiOutlineSearch } from "react-icons/hi";
+import { HiFilm, HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -74,7 +74,7 @@ const Header = () => {
     <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
       <ContentWrapper>
         <div className="logo" onClick={() => navigate("/")}>
-          <img src={logo} alt="" />
+          <span className="logo-text">Film Flare</span>
         </div>
         <ul className="menuItems">
           <li className="menuItem" onClick={() => navigationHandler("movie")}>
