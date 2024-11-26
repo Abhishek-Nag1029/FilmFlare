@@ -76,33 +76,30 @@ Film Flare is a dynamic and interactive movies application built with React, off
 * Node.js
 * npm or yarn
 
-Setup
+## Setup
 
-!.Clone the repository
+### 1.Clone the repository
 
-git clone https://github.com/yourusername/film-flare.git
+* git clone https://github.com/Abhishek-Nag1029/FilmFlare.git
 
-Install dependencies
+### 2.Install dependencies
 
-cd film-flare
-npm install
+* cd film-flare
+* npm install
 
-Set up environment variables
+### 3.Set up environment variables
 
+* Create a .env file
+* Add your Moviedb API key
+*CopyREACT_APP_MOVIEDB_API_KEY=your_api_key_here
 
-Create a .env file
-Add your Moviedb API key
+### 4.Start the development server
 
-CopyREACT_APP_MOVIEDB_API_KEY=your_api_key_here
+* npm start
 
-Start the development server
-
-bashCopynpm start
-
-
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+### 5. Fork the repository
+* Create your feature branch (git checkout -b feature/AmazingFeature)
+* Commit your changes (git commit -m 'Add some AmazingFeature')
+* Push to the branch (git push origin feature/AmazingFeature)
+* Open a Pull Request
 
